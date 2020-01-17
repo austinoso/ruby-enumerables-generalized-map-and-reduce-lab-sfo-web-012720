@@ -16,5 +16,5 @@ def reduce(array, starting_point = 0)
     yield(array)
     i += 1
   end
-
+  output
 end
