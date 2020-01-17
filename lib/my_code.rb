@@ -9,8 +9,11 @@ def map(array)
 end
 
 def reduce(array, starting_point = nil)
-  output = starting_point
-  i = 0
+  if starting_point
+    num1 = starting_point
+    i = 0
+  else
+
   while i < array.length do
     output = yield(output, array[i])
     i += 1
