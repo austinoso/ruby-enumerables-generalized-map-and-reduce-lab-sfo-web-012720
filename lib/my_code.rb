@@ -15,7 +15,8 @@ def reduce(array, starting_point = 0)
     output = 0
   end
 
+  i = 0
 
-
+  while
 
 end
