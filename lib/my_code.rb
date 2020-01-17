@@ -10,6 +10,7 @@ end
 
 def reduce(array, starting_point = 0)
 
+  output = 0
 
 
 end
