@@ -10,7 +10,7 @@ end
 
 def reduce(array, starting_point = 0)
 
-  output = yield(array[i], starting_point)
+  output = yield(array, starting_point)
 
   output
 
