@@ -12,5 +12,11 @@ def reduce(array, starting_point = 0)
 
   output = 0
 
+  if starting_point
+
+    output = starting_point
+
+  end
+
 
 end
