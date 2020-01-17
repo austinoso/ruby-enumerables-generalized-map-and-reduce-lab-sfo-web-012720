@@ -11,8 +11,6 @@ end
 def reduce(array, *starting_point)
   if starting_point
     output = starting_point
-  else
-    output = 0
   end
 
   i = 0
