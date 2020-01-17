@@ -14,7 +14,8 @@ def reduce(array, starting_point = 0)
 
   while i < array.length do
 
-
+    yield(array)
+    i += 1
 
   end
 
