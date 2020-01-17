@@ -9,12 +9,10 @@ def map(array)
 end
 
 def reduce(array, starting_point = 0)
-
   if starting_point
-
     output = starting_point
   else
-    output = 0  
+    output = 0
   end
 
 
